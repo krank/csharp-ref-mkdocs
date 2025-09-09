@@ -1,6 +1,5 @@
 # Komma igång lokalt
 
-
 ## Instruktion:
 - Krävs (typ):
   - Python 3.x
