@@ -1,0 +1,2 @@
+# MCGB Editor\*
+

@@ -1,0 +1,71 @@
+site_name: C# Snabbreferens
+site_url: https://test.progdocs.se
+theme:
+  name: material
+  language: sv
+  icon:
+    logo: material/language-csharp
+  font:
+    text: Lato
+    code: Source Code Pro
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: white
+      accent: green
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: green
+  features:
+    - content.code.copy
+    - navigation.indexes
+    - navigation.sections
+markdown_extensions:
+  - attr_list
+  
+  # Grids
+  - md_in_html
+
+  # Code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  # Mermaid diagrams
+  - pymdownx.superfences: # Superfences also required for admonitions, code blocks...
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+  # Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # Admonitions
+  - admonition
+  - pymdownx.details
+
+  # Emoji & icons
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # Highlight, super/subscript, keyboard keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+plugins:
+  - search
+  - awesome-nav:
+      filename: .nav.yml

@@ -1,0 +1,41 @@
+{
+  "code": {
+    "prefix": "lncode",
+    "scope": "markdown",
+    "body": [
+      "```${1|python,c,c++,c#,ruby,go,java,php,htm,javascript,json,markdown,console,mysql,sqlite3|} title=\"$2\" linenums=\"1\"",
+      "$0${TM_SELECTED_TEXT}",
+      "```"
+    ],
+    "description": "A fenced code block with line numbers"
+  },
+  "admonition": {
+    "prefix": "admon",
+    "scope": "markdown",
+    "body": [
+      "!!! ${1|note,abstract,info,tip,success,question,warning,failure,danger,bug,example,quote|} $2",
+      "    $0${TM_SELECTED_TEXT}"
+    ],
+    "description": "An admonition"
+  },
+  "collapsible admonition": {
+    "prefix": "cadmon",
+    "scope": "markdown",
+    "body": [
+      "??? ${1|note,abstract,info,tip,success,question,warning,failure,danger,bug,example,quote|} $2",
+      "    $0${TM_SELECTED_TEXT}"
+    ],
+    "description": "A collapsible admonition"
+  },
+  "tab":{
+    "prefix": "tab",
+    "scope": "markdown",
+    "body": [
+      "=== \"${1}\"",
+      "    $0${TM_SELECTED_TEXT}",
+      
+    ],
+    "description": "A content tab"
+  }
+
+}

@@ -1,0 +1,24 @@
+nav: 
+  - Datatyper […]: datatyper
+  - fel.md
+  - typkonvertering.md
+  - operatorer.md
+  - boolska-satser.md
+  - konsollen-console.md
+  - if-satser.md
+  - loopar.md
+  - listor-och-arrayer.md
+  - slump.md
+  - string-manipulering.md
+  - egna-metoder.md
+  - anvaenda-bibliotek-using.md
+  - delegates.md
+  - matematik-math.md
+  - vektorer-numerics.md
+  - datum-och-tid.md
+  - try-catch.md
+  - namngivning.md
+  - begrepp.md
+  - reference-vs-value-types.md
+  - projektstruktur.md
+  - dotnet-i-terminalen.md

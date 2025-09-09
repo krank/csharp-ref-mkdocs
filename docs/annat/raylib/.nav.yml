@@ -1,0 +1,14 @@
+nav: 
+  - README.md
+  - raylib-setup.md
+  - foenster-i-raylib.md
+  - grafik.md
+  - geometriska-former.md
+  - Bilder och texturer: bilder-och-texturer
+  - input.md
+  - text.md
+  - rectangle.md
+  - kollisioner.md
+  - kamera.md
+  - ljud.md
+  - raylib-csharp.md

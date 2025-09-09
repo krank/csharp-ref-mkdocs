@@ -1,0 +1,8 @@
+nav: 
+  - README.md
+  - rest-och-crud.md
+  - url-er-och-rest.md
+  - restful-client.md
+  - thunder.md
+  - RESTful server (Minimal API): restful-server-minimal-api
+  - RESTful server (Web API) […]: restful-server
